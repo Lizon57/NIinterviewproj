@@ -1,0 +1,21 @@
+div.boxes-container div.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  color: #ff4a64;
+  font-size: 22px;
+  font-family: $ff-title;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  width: 200px;
+  height: 120px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  transition: all ease-in-out $trn-f;
+
+  @include hover-supported {
+    border-color: #bc284b;
+    color: #bc284b;
+  }
+}

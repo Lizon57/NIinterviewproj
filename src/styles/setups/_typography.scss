@@ -1,0 +1,12 @@
+/* App fonts */
+$appFontPath: "../../assets/fonts";
+
+@font-face {
+  font-family: HurmeGeometricSans-Bold;
+  src: url(#{$appFontPath}/HurmeGeometricSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: HurmeGeometricSans-Regular;
+  src: url(#{$appFontPath}/HurmeGeometricSans-Regular.ttf);
+}
